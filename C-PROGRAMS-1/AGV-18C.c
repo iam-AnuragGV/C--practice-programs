@@ -1,6 +1,12 @@
 #include <stdio.h>
-int multiplication(int a)
+void multiplication(int a)
 {
     for(int i=1;i<=10;i++)
-        printf
+        printf("%d x %d = %d",a,i,a*i);
+}
+int main()
+{
+    int num = 5;
+    multiplication(num);
+    return 0;
 }
